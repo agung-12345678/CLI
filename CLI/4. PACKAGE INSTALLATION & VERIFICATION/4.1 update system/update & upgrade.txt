@@ -1,0 +1,9 @@
+811 packages can be upgraded. Run 'apt list --upgradable' to see them.
+The following packages were automatically installed and are no longer required:
+  curlftpfs  libavfilter10  libavformat61  libconfig-inifiles-perl  libfuse2t64  libpocketsphinx3  libpostproc58  libsphinxbase3t64  libswscale8  libvdpau-va-gl1  mesa-vdpau-drivers  pocketsphinx-en-us  vdpau-driver-all
+Use 'sudo apt autoremove' to remove them.
+
+Summary:
+  Upgrading: 800, Installing: 26, Removing: 0, Not Upgrading: 11
+  Download size: 2,531 MB
+  Space needed: 1,440 MB / 12.6 GB available

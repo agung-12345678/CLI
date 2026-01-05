@@ -1,0 +1,53 @@
+Identifikasi & arti 5 parameter penting
+
+🔹 1. Port
+
+Fungsi: Menentukan port yang digunakan oleh service SSH
+
+Default: 22
+
+Keamanan: Mengubah port dapat mengurangi serangan otomatis (brute force)
+
+🔹 2. PermitRootLogin
+
+Fungsi: Mengatur apakah user root boleh login via SSH
+
+Nilai umum:
+
+yes → root boleh login (❌ tidak aman)
+
+no → root dilarang login (✅ direkomendasikan)
+
+Tujuan: Mencegah akses langsung ke akun administrator
+
+🔹 3. PasswordAuthentication
+
+Fungsi: Mengatur apakah login SSH boleh menggunakan password
+
+Nilai:
+
+yes → login pakai password
+
+no → hanya key-based authentication
+
+Keamanan: no lebih aman terhadap brute force
+
+🔹 4. PubkeyAuthentication
+
+Fungsi: Mengaktifkan autentikasi menggunakan SSH key
+
+Nilai:
+
+yes → login dengan public key diizinkan
+
+no → login key dimatikan
+
+Keamanan: Lebih aman dibanding password
+
+🔹 5. MaxAuthTries
+
+Fungsi: Membatasi jumlah percobaan login gagal
+
+Contoh: MaxAuthTries 3
+
+Tujuan: Mengurangi risiko brute force attack

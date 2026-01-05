@@ -1,0 +1,27 @@
+Permission 600 artinya:
+
+File hanya bisa dibaca dan diedit oleh pemiliknya.
+Orang lain tidak bisa melihat atau mengubah file tersebut sama sekali.
+
+Seperti:
+
+Dokumen pribadi
+
+Disimpan di laci
+
+Dikunci
+
+Hanya kamu yang punya kuncinya 
+
+Permission 600 pada file report.txt menunjukkan bahwa hanya pemilik file (owner) 
+yang memiliki hak akses untuk membaca (read) dan menulis (write) file tersebut, 
+sedangkan kelompok (group) dan pengguna lain (others) tidak memiliki hak akses sama sekali. 
+Nilai 6 diperoleh dari kombinasi read (4) dan write (2), sementara nilai 0 menandakan tidak adanya izin akses. 
+Pengaturan permission ini bertujuan untuk menjaga kerahasiaan dan keamanan data dengan membatasi akses hanya kepada pemilik file.
+
+
+| Angka | Siapa  | Arti                 |
+| ----- | ------ | -------------------- |
+| 6     | Owner  | Read (4) + Write (2) |
+| 0     | Group  | Tidak ada akses      |
+| 0     | Others | Tidak ada akses      |

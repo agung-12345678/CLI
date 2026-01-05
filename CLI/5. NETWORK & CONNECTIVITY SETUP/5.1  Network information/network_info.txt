@@ -1,0 +1,13 @@
+Konfigurasi jaringan dianalisis menggunakan perintah ip addr show untuk 
+memperoleh alamat IPv4 dan prefix subnet pada interface jaringan aktif, 
+serta perintah ip route untuk menentukan default gateway sistem. 
+Informasi tersebut didokumentasikan dalam file network_info.txt 
+sebagai catatan konfigurasi jaringan yang digunakan oleh sistem operasi.
+
+
+Network Information
+
+Interface   : eth0
+IP Address  : 10.0.2.15
+Netmask     : 10.0.2.255
+Gateway     : 10.0.2.2
