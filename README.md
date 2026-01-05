@@ -1,74 +1,177 @@
 # NAMA : AGUNG HIKMANTARA
 # NIM  : 1002250045
 
-BAB I
+#   IMPLEMENTASI DAN ANALISIS ADMINISTRASI SISTEM LINUX
+
+MENGGUNAKAN KALI LINUX SEBAGAI MEDIA PEMBELAJARAN DASAR KEAMANAN SISTEM
+
+# BAB I
+
 PENDAHULUAN
-1.1 Latar Belakang
 
-Perkembangan teknologi informasi yang semakin pesat menuntut pemahaman yang kuat terhadap sistem operasi, khususnya sistem operasi berbasis Linux, yang banyak digunakan pada lingkungan server, jaringan, dan keamanan siber. Linux dikenal sebagai sistem operasi yang stabil, fleksibel, dan memiliki tingkat kontrol yang tinggi terhadap konfigurasi sistem, sehingga banyak dimanfaatkan dalam administrasi sistem dan pengamanan jaringan.
+# 1.1 Latar Belakang
 
-Kali Linux merupakan salah satu distribusi Linux yang dirancang khusus untuk keperluan pengujian keamanan dan analisis jaringan. Penggunaan Kali Linux tidak hanya terbatas pada aktivitas pengujian keamanan, tetapi juga sangat relevan untuk mempelajari konsep dasar administrasi sistem, manajemen file, konfigurasi layanan, serta pengelolaan jaringan secara terstruktur dan aman.
+Perkembangan teknologi informasi yang semakin pesat menuntut tersedianya sistem komputer yang stabil, aman, dan dapat dikelola secara efektif. Sistem operasi Linux menjadi salah satu fondasi utama dalam pengelolaan server, jaringan, dan infrastruktur keamanan karena bersifat terbuka, fleksibel, serta memiliki tingkat keamanan yang tinggi.
 
-Pemahaman terhadap perintah dasar Linux, manajemen layanan sistem, pengolahan teks, konfigurasi jaringan, dan pengamanan akses merupakan kompetensi penting yang harus dimiliki oleh mahasiswa di bidang teknologi informasi dan keamanan siber. Oleh karena itu, praktikum ini dirancang untuk memberikan pengalaman langsung dalam mengelola sistem Linux secara profesional melalui pendekatan berbasis praktik dan dokumentasi sistematis.
+Dalam praktiknya, pengelolaan sistem Linux memerlukan pemahaman menyeluruh terhadap administrasi sistem, mulai dari manajemen file, layanan sistem, jaringan, hingga mekanisme keamanan. Kurangnya pemahaman dasar terhadap aspek-aspek tersebut dapat menyebabkan kesalahan konfigurasi yang berpotensi menimbulkan gangguan sistem maupun celah keamanan.
 
-Melalui praktikum ini, peserta diharapkan tidak hanya memahami teori, tetapi juga mampu menerapkan konsep administrasi sistem dan keamanan dasar secara nyata, terukur, dan terdokumentasi dengan baik.
+Kali Linux sebagai distribusi Linux yang dirancang khusus untuk kebutuhan keamanan menyediakan lingkungan yang ideal untuk pembelajaran administrasi sistem dan keamanan dasar. Oleh karena itu, penelitian ini dilakukan untuk mengimplementasikan dan menganalisis aktivitas administrasi sistem Linux secara terstruktur, terdokumentasi, dan sistematis sebagai media pembelajaran yang komprehensif.
 
-1.2 Rumusan Masalah
+# 1.2 Rumusan Masalah
 
-Berdasarkan latar belakang tersebut, rumusan masalah dalam praktikum ini adalah sebagai berikut:
+Bagaimana proses administrasi sistem Linux dilakukan secara sistematis menggunakan Kali Linux?
 
-Bagaimana cara mengidentifikasi informasi sistem dan mengelola identitas mesin pada sistem operasi Linux?
+Bagaimana implementasi manajemen file, layanan, jaringan, dan keamanan dasar pada sistem Linux?
 
-Bagaimana penerapan manajemen direktori dan file pada sistem Linux secara terstruktur dan aman?
+Kendala apa saja yang muncul selama proses konfigurasi dan bagaimana solusi yang diterapkan?
 
-Bagaimana penggunaan perintah pemrosesan teks untuk mengelola dan menganalisis data berbasis teks?
+# 1.3 Tujuan Penelitian
 
-Bagaimana proses instalasi, verifikasi, dan penggunaan tools keamanan jaringan pada Kali Linux?
+Mengimplementasikan administrasi sistem Linux secara menyeluruh dan terstruktur.
 
-Bagaimana konfigurasi jaringan, layanan sistem, dan pengamanan akses dilakukan pada sistem Linux?
+Menganalisis konfigurasi sistem, jaringan, dan keamanan dasar pada Kali Linux.
 
-Bagaimana proses dokumentasi aktivitas sistem dilakukan secara sistematis dan profesional?
+Menyediakan dokumentasi teknis yang sistematis sebagai media pembelajaran.
 
-1.3 Tujuan Praktikum
+# 1.4 Manfaat Penelitian
 
-Tujuan dari praktikum ini adalah sebagai berikut:
+Memberikan pemahaman praktis administrasi sistem Linux.
 
-Mengidentifikasi informasi sistem dan melakukan pengelolaan hostname pada sistem Linux.
+Menjadi referensi pembelajaran bagi mahasiswa dan praktisi pemula.
 
-Menerapkan manajemen direktori dan file, termasuk pengaturan hak akses.
+Menjadi dasar pengembangan kompetensi keamanan sistem.
 
-Menguasai penggunaan perintah pemrosesan teks dan pipeline pada Linux.
+# BAB II
 
-Melakukan pembaruan sistem serta instalasi dan verifikasi tools keamanan jaringan.
+LANDASAN TEORI
 
-Mengonfigurasi jaringan, layanan SSH, dan firewall pada sistem Linux.
+# 2.1 Sistem Operasi Linux
 
-Menyusun dokumentasi teknis yang lengkap, terstruktur, dan dapat diverifikasi.
+Linux merupakan sistem operasi berbasis kernel open source yang dirancang untuk kestabilan, keamanan, dan efisiensi. Linux memungkinkan pengelolaan sistem secara langsung melalui antarmuka baris perintah, sehingga memberikan kontrol penuh kepada administrator sistem.
 
-1.4 Manfaat Praktikum
+# 2.2 Kali Linux
 
-Manfaat yang diperoleh dari pelaksanaan praktikum ini adalah sebagai berikut:
+Kali Linux adalah distribusi Linux berbasis Debian yang difokuskan pada keamanan informasi, pengujian penetrasi, dan analisis jaringan. Kali Linux menyediakan tools keamanan yang relevan serta lingkungan administrasi sistem yang lengkap.
 
-Memberikan pemahaman praktis mengenai administrasi sistem Linux.
+# 2.3 Command Line Interface
 
-Melatih kemampuan analisis dan pemecahan masalah pada lingkungan sistem operasi.
+CLI merupakan antarmuka utama dalam Linux yang memungkinkan konfigurasi sistem secara presisi dan efisien. CLI menjadi fondasi utama dalam administrasi sistem Linux.
 
-Meningkatkan keterampilan konfigurasi jaringan dan layanan sistem.
+# 2.4 Manajemen File dan Direktori
 
-Membiasakan peserta dengan dokumentasi teknis yang sesuai standar akademik dan profesional.
+Linux menerapkan sistem hierarki file dengan mekanisme hak akses yang ketat untuk menjaga integritas dan keamanan data.
 
-Menjadi dasar pengetahuan untuk pembelajaran lanjutan di bidang keamanan siber dan sistem jaringan.
+# 2.5 Pengolahan Teks
 
-1.5 Batasan Masalah
+Linux menyediakan utilitas pengolahan teks untuk pencarian, penyaringan, dan analisis data berbasis teks secara cepat.
 
-Agar pembahasan lebih terarah, praktikum ini dibatasi pada hal-hal sebagai berikut:
+# 2.6 Manajemen Paket
 
-Sistem operasi yang digunakan adalah Kali Linux.
+Manajemen paket memungkinkan instalasi dan pemeliharaan perangkat lunak secara terpusat dan konsisten.
 
-Aktivitas difokuskan pada administrasi sistem dan keamanan dasar.
+# 2.7 Jaringan dan SSH
 
-Pengujian keamanan dilakukan pada lingkungan lokal dan mesin virtual.
+Konfigurasi jaringan dan SSH memungkinkan komunikasi antar sistem secara aman melalui protokol terenkripsi.
 
-Tidak mencakup eksploitasi sistem atau pengujian keamanan tingkat lanjut.
+# 2.8 Manajemen Layanan dan Firewall
 
-Seluruh aktivitas dilakukan untuk tujuan pembelajaran dan praktikum akademik.
+Layanan sistem dan firewall berperan penting dalam menjaga stabilitas dan keamanan sistem Linux.
+
+# BAB III
+
+METODOLOGI PENELITIAN
+
+# 3.1 Metode Penelitian
+
+Metode penelitian yang digunakan adalah metode eksperimental dengan pendekatan praktik langsung pada sistem Kali Linux.
+
+# 3.2 Lingkungan Penelitian
+
+Sistem Operasi: Kali Linux
+
+Platform: Mesin Virtual
+
+Perangkat pendukung: Windows Command Prompt
+
+# 3.3 Tahapan Penelitian
+
+Identifikasi sistem dan hostname
+
+Manajemen direktori dan file
+
+Pengolahan teks dan pencarian data
+
+Instalasi dan verifikasi tools
+
+Konfigurasi jaringan dan SSH
+
+Manajemen layanan dan firewall
+
+Dokumentasi dan penyusunan laporan
+
+# BAB IV
+
+HASIL PENELITIAN
+
+# 4.1 Informasi Sistem
+
+Sistem berhasil diidentifikasi menggunakan perintah uname -a dan hostname berhasil diubah sesuai ketentuan.
+
+# 4.2 Manajemen File
+
+Struktur direktori berhasil dibuat, file dikelola, dimodifikasi, dan diberikan hak akses sesuai prinsip keamanan Linux.
+
+# 4.3 Pengolahan Teks
+
+Pemrosesan data menggunakan utilitas teks berjalan efektif dan efisien.
+
+# 4.4 Instalasi Tools
+
+Tools yang berhasil diinstal dan diverifikasi meliputi:
+
+Nmap
+
+Wireshark
+
+Tcpdump
+
+Aircrack-ng
+
+Burp Suite
+
+# 4.5 Jaringan dan SSH
+
+Konfigurasi jaringan berhasil dilakukan. SSH berhasil diaktifkan dan diuji melalui koneksi jarak jauh dari sistem Windows.
+
+# 4.6 Firewall
+
+Firewall berhasil dikonfigurasi untuk mengizinkan akses SSH dan membatasi lalu lintas jaringan lainnya.
+
+# BAB V
+
+PEMBAHASAN
+
+# 5.1 Analisis Administrasi Sistem
+
+Implementasi administrasi sistem Linux berjalan sesuai konsep teoritis dan menunjukkan efektivitas CLI dalam pengelolaan sistem.
+
+# 5.2 Kendala dan Solusi
+Kendala	Solusi
+SSH tidak dapat diakses	Mengecek status service dan firewall
+Permission file salah	Penyesuaian chmod
+Konflik port	Identifikasi port aktif menggunakan netstat
+# 5.3 Evaluasi Keamanan
+
+Konfigurasi SSH dan firewall meningkatkan keamanan sistem secara signifikan.
+
+# BAB VI
+
+KESIMPULAN DAN SARAN
+
+# 6.1 Kesimpulan Khusus
+
+Administrasi sistem Linux dapat dilakukan secara sistematis melalui CLI.
+
+Kali Linux efektif sebagai media pembelajaran administrasi sistem dan keamanan dasar.
+
+Dokumentasi teknis berperan penting dalam menjaga konsistensi konfigurasi.
