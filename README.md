@@ -1,10 +1,14 @@
-**IMPLEMENTASI DAN ANALISIS ADMINISTRASI SISTEM LINUX
+NAMA : AGUNG HIKMANTARA
+NIM  : 1002250045
+
+
+IMPLEMENTASI DAN ANALISIS ADMINISTRASI SISTEM LINUX
 
 MENGGUNAKAN KALI LINUX SEBAGAI MEDIA PEMBELAJARAN DASAR KEAMANAN SISTEM**
 
-**BAB I
+BAB I
 
-PENDAHULUAN**
+PENDAHULUAN
 
 1.1 Latar Belakang
 
@@ -38,9 +42,9 @@ Menjadi referensi pembelajaran bagi mahasiswa dan praktisi pemula.
 
 Menjadi dasar pengembangan kompetensi keamanan sistem.
 
-**BAB II
+BAB II
 
-LANDASAN TEORI**
+LANDASAN TEORI
 
 2.1 Sistem Operasi Linux
 
@@ -74,9 +78,9 @@ Konfigurasi jaringan dan SSH memungkinkan komunikasi antar sistem secara aman me
 
 Layanan sistem dan firewall berperan penting dalam menjaga stabilitas dan keamanan sistem Linux.
 
-**BAB III
+BAB III
 
-METODOLOGI PENELITIAN**
+METODOLOGI PENELITIAN
 
 3.1 Metode Penelitian
 
@@ -106,9 +110,9 @@ Manajemen layanan dan firewall
 
 Dokumentasi dan penyusunan laporan
 
-**BAB IV
+BAB IV
 
-HASIL PENELITIAN**
+HASIL PENELITIAN
 
 4.1 Informasi Sistem
 
@@ -144,9 +148,9 @@ Konfigurasi jaringan berhasil dilakukan. SSH berhasil diaktifkan dan diuji melal
 
 Firewall berhasil dikonfigurasi untuk mengizinkan akses SSH dan membatasi lalu lintas jaringan lainnya.
 
-**BAB V
+BAB V
 
-PEMBAHASAN**
+PEMBAHASAN
 
 5.1 Analisis Administrasi Sistem
 
@@ -161,9 +165,9 @@ Konflik port	Identifikasi port aktif menggunakan netstat
 
 Konfigurasi SSH dan firewall meningkatkan keamanan sistem secara signifikan.
 
-**BAB VI
+BAB VI
 
-KESIMPULAN DAN SARAN**
+KESIMPULAN DAN SARAN
 
 6.1 Kesimpulan Khusus
 
