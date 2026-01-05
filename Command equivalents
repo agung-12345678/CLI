@@ -1,0 +1,52 @@
+COMMAND EQUIVALENTS
+Perbandingan Debian-based dan RedHat-based Linux
+
+INSTALL PACKAGE
+
+Debian / Ubuntu / Kali Linux:
+sudo apt install nmap
+
+RedHat / CentOS:
+sudo dnf install nmap
+(atau: sudo yum install nmap)
+
+START SSH SERVICE
+
+Debian / Ubuntu / Kali Linux:
+sudo systemctl start ssh
+
+RedHat / CentOS:
+sudo systemctl start sshd
+
+CHECK SERVICE STATUS
+
+Debian / Ubuntu / Kali Linux:
+sudo systemctl status ssh
+
+RedHat / CentOS:
+sudo systemctl status sshd
+
+ADD FIREWALL RULE (ALLOW SSH)
+
+Debian / Ubuntu / Kali Linux (UFW):
+sudo ufw allow 22/tcp
+
+RedHat / CentOS (firewalld):
+sudo firewall-cmd --add-service=ssh --permanent
+sudo firewall-cmd --reload
+
+VIEW SYSTEM INFORMATION
+
+Debian / Ubuntu / Kali Linux:
+uname -a
+
+RedHat / CentOS:
+uname -a
+
+KESIMPULAN SINGKAT:
+
+Perbedaan utama terletak pada package manager, firewall, dan nama service SSH.
+
+Perintah informasi sistem bersifat universal di seluruh distribusi Linux.
+
+Pemahaman command equivalent penting untuk administrasi lintas distro.
