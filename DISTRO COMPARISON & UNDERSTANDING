@@ -1,0 +1,33 @@
+TABEL PERBANDINGAN DISTRIBUSI LINUX
+
+Distribusi Linux : Ubuntu / Debian
+Package Manager : apt (Advanced Package Tool)
+Init System : systemd
+Nama Service SSH : ssh
+Firewall Default : ufw (Uncomplicated Firewall)
+
+Distribusi Linux : Kali Linux
+Package Manager : apt (berbasis Debian)
+Init System : systemd
+Nama Service SSH : ssh
+Firewall Default : ufw (opsional, tidak aktif secara default)
+
+Distribusi Linux : Red Hat Enterprise Linux (RHEL)
+Package Manager : dnf / yum
+Init System : systemd
+Nama Service SSH : sshd
+Firewall Default : firewalld
+
+Distribusi Linux : CentOS
+Package Manager : dnf / yum
+Init System : systemd
+Nama Service SSH : sshd
+Firewall Default : firewalld
+
+Keterangan:
+
+Distribusi berbasis Debian (Ubuntu, Kali Linux) menggunakan apt dan service SSH bernama "ssh".
+
+Distribusi berbasis Red Hat (RHEL, CentOS) menggunakan dnf/yum dan service SSH bernama "sshd".
+
+Seluruh distribusi modern menggunakan systemd sebagai init system.
