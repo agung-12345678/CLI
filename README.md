@@ -1,3 +1,9 @@
+NAMA : AGUNG HIKMANTARA
+
+NIM  : 1002250045
+
+
+
 Ringkasan Aktivitas Praktikum Administrasi Sistem Linux
 
 Praktikum ini bertujuan untuk membekali peserta dengan pemahaman komprehensif mengenai administrasi sistem operasi Linux melalui implementasi langsung pada lingkungan Kali Linux. Kegiatan diawali dengan identifikasi sistem menggunakan perintah untuk menampilkan informasi inti sistem, meliputi jenis sistem operasi, versi kernel, dan arsitektur perangkat keras. Selanjutnya dilakukan perubahan hostname sistem sesuai dengan ketentuan yang ditetapkan, yang kemudian diverifikasi dan didokumentasikan secara tertulis guna menjaga konsistensi serta keterlacakan perubahan konfigurasi sistem.
