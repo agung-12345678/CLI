@@ -1,0 +1,6 @@
+Network Information
+
+Interface   : eth0
+IP Address  : 10.0.2.15
+Netmask     : 10.0.2.255
+Gateway     : 10.0.2.2
